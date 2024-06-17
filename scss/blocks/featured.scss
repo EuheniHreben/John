@@ -1,0 +1,38 @@
+.featured {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.featured h2 {
+  margin-bottom: 90px;
+}
+
+.featured__item {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.featured__img-box {
+  margin-right: 20px;
+}
+
+.featured__date {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.featured__date-item {
+  &:first-child {
+    color: #fff;
+    border-radius: 16px;
+    display: inline-flex;
+    padding: 5px 10px;
+    background-color: #142850;
+  }
+  &:last-child {
+    color: $light;
+  }
+}

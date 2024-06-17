@@ -1,0 +1,33 @@
+.posts {
+  background-color: #EDF7FA;
+  padding: 30px 0px;
+  margin-bottom: 40px;
+}
+
+.posts__list {
+  display: flex;
+  gap: 20px;
+}
+
+.posts__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.posts__item {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.posts__sub {
+  margin-bottom: 10px;
+}

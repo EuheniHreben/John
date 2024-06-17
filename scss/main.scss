@@ -1,0 +1,17 @@
+// components
+@import '_variables.scss';  
+@import '_adaptive.scss';  
+@import '_normalize.scss';  
+@import '_layout.scss';
+
+// fonts 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700;800&display=swap');
+
+
+// blocks
+@import 'blocks/hero.scss';
+@import 'blocks/btn.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/featured.scss';
+@import 'blocks/posts.scss';
+@import 'blocks/blog.scss';
